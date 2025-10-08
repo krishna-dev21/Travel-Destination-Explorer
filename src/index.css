@@ -1,0 +1,118 @@
+/* write your css here */
+.wrapper
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+}
+
+.heading
+{
+    font-size: 3.4rem;
+   font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    border: 10px dashed rgb(8, 8, 110);
+    border-radius: 1.5rem;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+
+.wholetoursection
+{
+    /* width: 100vw; */
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5rem;
+    gap: 1rem;
+    justify-content: center;
+    /* align-items: center; */
+
+}
+
+.card
+{
+    background-color:white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 25rem;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    border-radius: .5rem;
+    gap: 1rem;
+}
+
+.cityimage
+{
+    width: 25rem;
+    aspect-ratio: 1/1;
+}
+
+
+.refreshbutton
+{
+    width: 10rem;
+}
+    
+    .buttonnotintererested ,.refreshbutton
+    {
+        appearance: none;
+        border: none;
+        outline: none;
+        background-image: linear-gradient(to right, #DC2424 0%, #4A569D  51%, #DC2424  100%)
+    }
+
+    .buttonnotintererested , .refreshbutton {
+       margin: 10px;
+       padding: 15px 45px;
+       text-align: center;
+       text-transform: uppercase;
+       transition: 0.5s;
+       background-size: 200% auto;
+       color: white;            
+       box-shadow: 0 0 20px #eee;
+       border-radius: 10px;
+       display: block;
+     }
+
+    .buttonnotintererested:hover,.refreshbutton:hover{
+       background-position: right center; /* change the direction of the change here */
+       color: #fff;
+       text-decoration: none;
+     }
+
+     .price
+     {
+        color: green;
+        font-size: 1.5rem;
+        font-weight: 600;
+        font-family: Arial, Helvetica, sans-serif;
+
+    }
+    
+    .cityname
+    {
+        font-size: 1.6rem;
+        font-weight: 600;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .refreshsection
+    {  height: 600px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .more-less
+    {
+        color:aqua;
+        cursor: pointer;
+    }
+
+
+
+    
